@@ -61,9 +61,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Quel est ton nom?", required: true },
+      { question: "Quel age à tu?", required: true },
+      { question: "Pourquoi veut-tu nous rejoindre?", required: true },
     ],
 
     // Embed colors by application status.
@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Or",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Or",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -175,15 +175,15 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 2000,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 1000,
+    workMax: 6000,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 50,
+    begMax: 250,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
